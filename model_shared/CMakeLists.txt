@@ -31,6 +31,6 @@ install(TARGETS model_shared
         LIBRARY DESTINATION lib
         ARCHIVE DESTINATION lib/myproject)
 
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}./include DESTINATION ./include)
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}./include/model_shared DESTINATION ./include)
 
 # TODO: Adicione testes e instale destinos, se necessário.
