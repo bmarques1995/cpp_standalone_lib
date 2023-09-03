@@ -19,7 +19,7 @@ else()
 	set(LIB_FORMAT SHARED)
 endif()
 
-add_library (model_shared ${LIB_FORMAT} ${MODEL_SHARED_HDRS} ${MODEL_SHARED_SRCS} "lib/log.cpp")
+add_library (model_shared ${LIB_FORMAT} ${MODEL_SHARED_HDRS} ${MODEL_SHARED_SRCS})
 target_include_directories(model_shared PRIVATE "./include")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
