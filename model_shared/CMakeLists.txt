@@ -29,7 +29,7 @@ endif()
 install(TARGETS model_shared
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib/myproject)
+        ARCHIVE DESTINATION lib)
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}./include/model_shared DESTINATION ./include)
 
